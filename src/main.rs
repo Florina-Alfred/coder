@@ -27,7 +27,7 @@ fn show_user_code(code: &TextArea, user: &TextArea) {
 
 fn fill_code(code: &mut TextArea) {
     // let text = "alfred\nmarshall\nalfred".to_string();
-    let text = "alfred\nmarshall\nalfred\nmarshall\nalfred\nmarshall\nalfred\nmarshall\nalfred"
+    let text = "alfred\nmarshall\nalfred\nmarshall\nalfred\nmarshall\nalfred\nmarshall\nalfred\n"
         .to_string();
     for t in text.chars() {
         code.buffer_char.push(t);
